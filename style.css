@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    height:100vh;
+    width:1440px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0 auto;
+    /* position: relative; */
+}
+.navlist{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    /* margin-left: 33%;
+    margin-right: 36%; */
+    /* padding: 0 auto; */
+
+}
+nav li{ 
+    margin-top:1.5rem;
+    margin-left:2rem;
+    margin-right:2rem;
+    font-family: Raleway;
+    font-style: SemiBold;
+    font-size:18px;
+    color: #777C85;
+    
+}
+
+nav {
+    display: flex;
+    margin: 0 auto;
+
+}
+.logo1{
+    margin-top:0.4rem;
+    margin-left: 0.6rem;
+    height: 50px;
+}
+.button1{
+    margin-right:2%;
+    padding: 3px;
+    height:30px;
+    margin-top:0.8rem;
+    background-color:#4E5DC0;
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-style: Bold;
+    border: 1px solid #4E5DC0;
+    border-radius:5px;
+
+}
+#team{
+    color: #4E5DC0;
+    font-family: Raleway;
+    font-style: SemiBold;
+    font-size:18px;
+}
+
+.containt{
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 auto;
+    margin-top: 5%;
+}
+.box{
+    width: 40%;
+    margin:5%;
+    
+}
+
+
+.box2{
+    width: 500px;
+    height: 427px;
+    
+}
+
+.box3{
+    width: 500px;
+    height: 427px;
+}
+
+h3{
+    font-family: Roboto Flex;
+    font-style: SemiBold;
+    font-size: 38px;
+    color: #16171C;
+    margin-top: 2%;
+
+}
+
+.containt p{
+    font-family: Raleway;
+    font-style:medium;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 4%;
+}
+
+.container{
+    margin: 0 auto;
+    margin-top: 5%;
+    
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5%;
+    color: #4E5DC0;
+}
+
+
+.container ul{
+    list-style:none;
+}
+.logo2{
+    /* position: absolute; */
+    width:98px;
+    height: 82px;
+    
+
+    margin-bottom: 5%;
+
+
+}
+
+h5{ 
+    
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 32px;
+}
+
+.boxex li{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+color: #999999;
+}
+.boxex p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #999999;
+}
+
+.logo3{
+    height: 16px;
+    width: 16px;
+    color: #4E5DC0;
+    background-color: #FFFFFF;
+}
