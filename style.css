@@ -9,7 +9,8 @@
     overflow-x: hidden;
     overflow-y: auto;
     margin: 0 auto;
-    /* position: relative; */
+    /* position: relative; */ 
+    scroll-behavior: smooth;
 }
 .navlist{
     list-style: none;
